@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressQuery", "ExpressQuery\ExpressQuery.csproj", "{7F48657F-C85E-4388-B892-F8636255BEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressQueryConsolel", "ExpressQueryConsolel\ExpressQueryConsolel.csproj", "{19E90202-6FD7-4850-B849-DE3A30E788A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F48657F-C85E-4388-B892-F8636255BEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F48657F-C85E-4388-B892-F8636255BEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F48657F-C85E-4388-B892-F8636255BEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F48657F-C85E-4388-B892-F8636255BEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E90202-6FD7-4850-B849-DE3A30E788A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E90202-6FD7-4850-B849-DE3A30E788A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E90202-6FD7-4850-B849-DE3A30E788A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E90202-6FD7-4850-B849-DE3A30E788A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88C6581F-3615-4F18-BA4E-437B7910BDE7}
+	EndGlobalSection
+EndGlobal
