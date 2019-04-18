@@ -46,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AliyunExpressQuery.cs" />
+    <Compile Include="Extend\AliyunExpressQuery.cs" />
     <Compile Include="ExpressEntity.cs" />
     <Compile Include="IExpressQuery.cs" />
-    <Compile Include="JHExpressQuery.cs" />
+    <Compile Include="Extend\JHExpressQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SJZHExpressQuery.cs" />
-    <Compile Include="YongYouExpressQuery.cs" />
+    <Compile Include="Extend\SJZHExpressQuery.cs" />
+    <Compile Include="Extend\YongYouExpressQuery.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

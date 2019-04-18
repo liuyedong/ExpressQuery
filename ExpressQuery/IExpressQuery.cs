@@ -10,5 +10,6 @@ namespace ExpressQuery
     {
         string ApiName { get; }
         string QueryUrl { get; }
+        string ExpressQuery(ExpressEntity entity);
     }
 }

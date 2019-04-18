@@ -12,11 +12,13 @@ namespace ExpressQueryConsolel
         static void Main(string[] args)
         {
 
+            //IExpressQuery expressQuery;
+            //expressQuery = new AliyunExpressQuery();
+            //SJZHExpressQuery query = new SJZHExpressQuery();
+            //var result = query.ExpressQuery("73111964768386");
+            //query.ConvertResult(result);
+            //Console.WriteLine(result);
 
-            SJZHExpressQuery query = new SJZHExpressQuery();
-            var result = query.ExpressQuery("73111964768386");
-            query.ConvertResult(result);
-            Console.WriteLine(result);
             //AliyunExpressQuery query1 = new AliyunExpressQuery();
             //var result1 = query1.ExpressQuery("201653440897");
             //Console.WriteLine(result1);
@@ -27,6 +29,15 @@ namespace ExpressQueryConsolel
             //var resultyy = queryyy.ExpressQuery(new ExpressEntity() { ExpressNo = "3704922757290", Company = "申通" });
             //Console.WriteLine(resultyy);
             Console.ReadKey();
+        }
+        public static IExpressQuery Create(string companyName)
+        {
+            switch (companyName)
+            {
+                case "aliyun":
+                    return new AliyunExpressQuery();
+            }
+            return null;
         }
         static List<ExpressEntity> InitQuery()
         {
